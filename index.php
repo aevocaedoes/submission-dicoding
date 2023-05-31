@@ -1,18 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>BujangGanteng.com</title>
+  <title>Profil Saya</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .profile-image {
+      width: 200px;
+      height: auto;
+      border-radius: 50%;
+      margin-bottom: 20px;
+    }
+  </style>
 </head>
+<body>
+  <h1>Profil Saya</h1>
+  <img class="profile-image" src="https://storage.googleapis.com/my-bucket/profile-image.jpg" alt="Foto Profil">
 
-<body style="background:darkgray;">
-    <div style="color:rgb(252, 252, 252); padding: 30px; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
-        <h1 style="color: blue;">Selamat Datang di JUNAVANDRIYANI chanel</h1>
-        <h3>Demonstrasi Google App Engine</h3>
-    </div>
+  <h2>Nama:</h2>
+  <p>John Doe</p>
+
+  <h2>Alamat:</h2>
+  <p>Jl. Contoh No. 123, Kota Contoh</p>
+
+  <h2>Deskripsi:</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vel ex bibendum, semper lectus sit amet, placerat tellus.</p>
 </body>
-
 </html>
